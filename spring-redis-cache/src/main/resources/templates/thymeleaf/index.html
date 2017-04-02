@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"></meta>
+<title>LOGIN___1</title>
+<style type="text/css">
+th {
+	width: 100px;
+	float: center;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+		<table style="width: 300px; height: 200px; background: gray; margin: 100px 500px">
+			<tr>
+				<th>当前登录用户：</th>
+				<th th:text="${account}">&nbsp;</th>
+			</tr>
+		</table>
+</body>
+</html>
